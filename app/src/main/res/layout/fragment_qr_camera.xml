@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llRecentQr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llInputContainer"
+        android:background="@color/re_text_light_gray_opa90"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/AppTheme2017.TextView.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="QR-Code ที่สแกนล่าสุด" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/atvRecentQr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            tools:text="A0987654321" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llInputContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/re_white_opa90"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtQrCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/edt_camera_scan_input"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColorHint="@color/re_text_gray"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_send" />
+
+    </LinearLayout>
+
+</RelativeLayout>

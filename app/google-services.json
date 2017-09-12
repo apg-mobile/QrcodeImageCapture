@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "217326387673",
+    "project_id": "qrcodeimagecapture"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217326387673:android:aab6899fb24964c0",
+        "android_client_info": {
+          "package_name": "com.apg.app.qrcodeimagecapture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217326387673-tt83u653frea4ca7tbf8m2faloig3rl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3bK21DblfojjblEQpeCef4tnbIEJzF5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

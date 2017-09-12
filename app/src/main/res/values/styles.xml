@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2017" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/new_light_grey</item>
+        <item name="colorPrimaryDark">@color/new_black</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textViewStyle">@style/AppTheme2017.TextView</item>
+        <item name="buttonStyle">@style/AppTheme2017.Button</item>
+        <item name="android:buttonStyle">@style/AppTheme2017.Button</item>
+    </style>
+
+    <style name="AppTheme2017.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/new_light_grey</item>
+        <item name="colorPrimaryDark">@color/new_black</item>
+        <item name="android:windowBackground">@color/new_light_grey</item>
+        <item name="android:textViewStyle">@style/AppTheme2017.TextView</item>
+        <item name="buttonStyle">@style/AppTheme2017.Button</item>
+        <item name="android:buttonStyle">@style/AppTheme2017.Button</item>
+    </style>
+
+    <style name="AppTheme2017.Button" parent="Widget.AppCompat.Button">
+        <item name="android:height">60dp</item>
+    </style>
+
+    <style name="AppTheme2017.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/new_black</item>
+    </style>
+
+    <style name="AppTheme2017.TextView.Giant" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="AppTheme2017.TextView.Big" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="AppTheme2017.TextView.Small" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

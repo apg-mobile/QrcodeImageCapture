@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/re_text_light_gray_opa90"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/tvQrCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:text="A2331234567890" />
+
+        <TextView
+            style="@style/AppTheme2017.TextView.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/label_take_photo" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnCapture"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cm"
+        android:visibility="visible" />
+
+</RelativeLayout>

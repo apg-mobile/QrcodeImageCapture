@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#AE6699</color>
+
+    <color name="new_white">@color/windowBackground</color>
+
+    <color name="windowBackground">#fff</color>
+    <color name="re_text_light_gray_opa90">#E6c8c7cc</color>
+    <color name="new_light_grey">#f2f2f2</color>
+    <color name="new_black">#333333</color>
+    <color name="re_white_opa90">#E6ffffff</color>
+    <color name="re_text_gray">#9b9b9b</color>
+
+
+
+</resources>
